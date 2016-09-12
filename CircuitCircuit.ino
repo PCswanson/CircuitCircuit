@@ -80,7 +80,7 @@ void loop() {
     }
 
   if (CircuitPlayground.readCap(LEFT_KEY, CAP_SAMPLES) >= CAP_THRESHOLD) {
-      CircuitPlayground.strip.setPixelColor(0, CircuitPlayground.colorWheel(0));
+      CircuitPlayground.strip.setPixelColor(0, CircuitPlayground.colorWheel(75));
       Keyboard.press(0xd8);
     }
     else {
@@ -88,7 +88,7 @@ void loop() {
     }
 
   if (CircuitPlayground.readCap(SPACE_KEY, CAP_SAMPLES) >= CAP_THRESHOLD) {
-      CircuitPlayground.strip.setPixelColor(9, CircuitPlayground.colorWheel(0));
+      CircuitPlayground.strip.setPixelColor(9, CircuitPlayground.colorWheel(100));
       Keyboard.press(' ');
     }
     else {
@@ -96,7 +96,7 @@ void loop() {
     }
 
   if (CircuitPlayground.readCap(SHIFT_KEY, CAP_SAMPLES) >= CAP_THRESHOLD) {
-      CircuitPlayground.strip.setPixelColor(8, CircuitPlayground.colorWheel(0));
+      CircuitPlayground.strip.setPixelColor(8, CircuitPlayground.colorWheel(125));
       Keyboard.press(0x81);
     }
     else {
@@ -104,7 +104,7 @@ void loop() {
     }  
 
   if (CircuitPlayground.readCap(CTRL_KEY, CAP_SAMPLES) >= CAP_THRESHOLD) {
-      CircuitPlayground.strip.setPixelColor(6, CircuitPlayground.colorWheel(0));
+      CircuitPlayground.strip.setPixelColor(6, CircuitPlayground.colorWheel(150));
       Keyboard.press(0x80);
     }
     else {
@@ -112,7 +112,7 @@ void loop() {
     }  
 
   if (CircuitPlayground.readCap(MOUSE_CLICK, CAP_SAMPLES) >= CAP_THRESHOLD) {
-      CircuitPlayground.strip.setPixelColor(5, CircuitPlayground.colorWheel(0));
+      CircuitPlayground.strip.setPixelColor(5, CircuitPlayground.colorWheel(175));
       Mouse.click();
     }
     else {
