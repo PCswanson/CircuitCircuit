@@ -25,4 +25,4 @@ Pressing the right button will send through the keyboard: "l###" followed by car
 
 Pressing the left button will send through the keyboard: "t##" followed by carriage return where ## is a temperature F (unless you uncomment the specified line to switch it to C).
 
-Both of these functions are formatted for easy use with Scratch's Question block.
+Both of these functions are formatted for easy use with Scratch's Question block. My demo project in Scratch is at: https://scratch.mit.edu/projects/156626704/
